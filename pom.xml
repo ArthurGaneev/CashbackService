@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.itpark</groupId>
-    <artifactId>unit-cash</artifactId>
+    <artifactId>cashback-service</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -71,18 +71,6 @@
                     <printFailingErrors>true</printFailingErrors>
                     <linkXRef>false</linkXRef>
                 </configuration>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>check</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <groupId>com.github.spotbugs</groupId>
-                <artifactId>spotbugs-maven-plugin</artifactId>
-                <version>3.1.8</version>
                 <executions>
                     <execution>
                         <goals>
