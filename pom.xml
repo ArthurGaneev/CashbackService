@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.itpark</groupId>
-    <artifactId>YOUR-PROJECT</artifactId>
+    <artifactId>CashbackService</artifactId>
     <version>1.0.0</version>
 
     <properties>
@@ -47,7 +47,7 @@
                                         <limit>
                                             <counter>LINE</counter>
                                             <value>COVEREDRATIO</value>
-                                            <minimum>100%</minimum>
+                                            <minimum>80%</minimum>
                                         </limit>
                                     </limits>
                                 </rule>
