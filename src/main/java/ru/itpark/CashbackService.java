@@ -7,8 +7,8 @@ public class CashbackService {
         int percentCashBackCategory3 = 30;
         int maxCashback = 3_000;
 
-        int resultCommon = ((sumCategory1 * percentCashBackCategory1) + (sumCategory2 * percentCashBackCategory2)
-                + (sumCategory3 * percentCashBackCategory3)) / 100;
+        int resultCommon = (sumCategory1 * percentCashBackCategory1 + sumCategory2 * percentCashBackCategory2
+                + sumCategory3 * percentCashBackCategory3) / 100;
 
         if (resultCommon > maxCashback) {
             return maxCashback;
